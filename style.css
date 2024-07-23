@@ -128,26 +128,26 @@ footer{
   margin-top: 20px;
 }
 .button-container {
-  display: flex; /* Menggunakan Flexbox */
-  justify-content: center; /* Menengahkan tombol secara horizontal */
-  align-items: flex-start; /* Membuat tombol rapat ke konten atas */
-  padding-top: 10px; /* Jarak antara tombol dan tepi atas kontainer */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 10px;
 }
 
 .button-container button {
-  background-color: #007bff; /* Warna latar belakang */
-  color: white; /* Warna teks */
-  padding: 10px 20px; /* Padding */
-  border: none; /* Menghilangkan border */
-  border-radius: 5px; /* Membuat sudut lebih bulat */
-  font-size: 16px; /* Ukuran teks */
-  cursor: pointer; /* Cursor pointer */
-  transition: background-color 0.3s, color 0.3s; /* Transisi untuk efek hover */
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .button-container button:hover {
-  background-color: #0056b3; /* Warna latar belakang saat hover */
-  color: #ffffff; /* Warna teks saat hover */
+  background-color: #0056b3;
+  color: #ffffff;
 }
 @media screen and (max-width: 768px) {
   .content-wrapper {
@@ -191,6 +191,6 @@ footer{
   margin-top: 20px;
 }
 .button-container button {
-  font-size: 14px; /* Ukuran teks lebih kecil */
-  padding: 8px 16px; /* Padding lebih kecil */
+  font-size: 14px;
+  padding: 8px 16px;
 }
